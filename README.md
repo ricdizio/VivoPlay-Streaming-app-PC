@@ -10,7 +10,7 @@ Windows_x64: Portable Version : https://mega.nz/#!yYEwAYSb!EewWHX8ZtMKq5bIJ_2aJ1
 
 Linux_x64: https://mega.nz/#!2REkHS7A!HmusyoUVIPv2rh5x_O_YkX36BwRaP6ObTjVpFmL0qOk
 
-Mac_OSX_x64: https://mega.nz/#F!vIVija6T!Qt2uIA4Ecq1HJ8Uh2Ebpgg
+Mac_OSX_x64: https://mega.nz/#!ycs3wKLZ!-4UiY1xPFzlogVtzgckiVbMmNpyoLoyovS1YJmccadA
 
 Contact: ricardodizio@gmail.com
          11-11274@usb.ve
