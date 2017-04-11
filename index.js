@@ -1,10 +1,27 @@
-var fs = require('fs')
-var path = require('path')
+const electron = require('electron')
+const app = electron.app
+const BrowserWindow = electron.BrowserWindow
+const path = require('path')
+const url = require('url')
 
-var pathFile = path.join(__dirname, 'path.txt')
+let mainWindow;
 
-if (fs.existsSync(pathFile)) {
-  module.exports = path.join(__dirname, fs.readFileSync(pathFile, 'utf-8'))
-} else {
-  throw new Error('Electron failed to install correctly, please delete node_modules/' + path.basename(__dirname) + ' and try installing again')
-}
+app.on('ready', () => {
+    mainWindow = new BrowserWindow({
+        width: 800,
+        height: 600,
+        icon: __dirname + '/imagenes/vivoplay.png',
+        title: 'VivoPlay App'
+    });
+    mainWindow.setTitle("VivoPlay");
+    mainWindow.setAutoHideMenuBar(true);
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__dirname,'index.html'),
+        protocol: 'file',
+        slashes: true
+    }))
+
+    mainWindow.on('closed', () => {
+        mainWindow = null;
+    });
+});
