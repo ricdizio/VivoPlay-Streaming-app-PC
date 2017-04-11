@@ -1,6 +1,6 @@
 # VivoPlay-Streaming-App-PC
 
-Vivo play Straming app PC for Venezuela
+Vivoplay Straming app PC for Venezuela
 
 Source Code need Electron and Node JS Packages (npm)
 
