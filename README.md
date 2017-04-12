@@ -6,7 +6,7 @@ Source Code need Electron and Node JS Packages (npm)
 
 Links for downloads:
 
-Windows_x64: Portable Version : https://mega.nz/#!yYEwAYSb!EewWHX8ZtMKq5bIJ_2aJ1ApcHsexc_zdWRh33ck1iSk
+Windows_x64: Portable Version : https://mega.nz/#!jREFhA4Z!lQGDNAicX3BE4ej47olVBclRWIaQxQ2pR_oa49hZ7kY
 
 Linux_x64: https://mega.nz/#!2REkHS7A!HmusyoUVIPv2rh5x_O_YkX36BwRaP6ObTjVpFmL0qOk
 
